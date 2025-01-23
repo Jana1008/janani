@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1710405143 source:c:\users\hp\documents\cprogram\vanaja\main.c
+	<stdio.h>
+	<time.h>
+
