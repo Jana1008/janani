@@ -1,0 +1,4 @@
+$ ls -l            # list the files and directories with their size
+$ ls -l | awk ‘$5 > 1048576 {print $9}’ > output.txt    # ls command output is pipelined to the awk command and the column 5 is checked and the output is redirected to the output.txt file.
+$ cat output.txt                   #display the content in output.txt file
+
